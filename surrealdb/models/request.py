@@ -31,4 +31,4 @@ class RPCRequest:
 
     id: str
     method: str
-    params: Tuple[Any]
+    params: Tuple[Any,...]
